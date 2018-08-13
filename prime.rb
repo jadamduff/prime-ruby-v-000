@@ -7,7 +7,7 @@ prime?(number)
     return false
   end
   i = 5
-  while i * i <= n
+  while i * i <= number
     return false if number % i = 0 || number % (i + 2) == 0
     i = i + 6
   end
